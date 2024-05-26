@@ -1,7 +1,12 @@
-/* src/App.css */
+.container .box {
+  display : flex;
+ flex-direction : row;
+  
+}
+
 #poster {
   font-family: 'Arial, sans-serif';
-  background-image: url(../public/happiness1.png);
+  background-image: url(/happiness1.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -30,18 +35,20 @@
   position: absolute;
   line-height: 0.9;
   width: 200px;
-  top: 30%;
+  top: 31%;
   left: 22%;
   transform: translate(-50%, -50%);
   color: hsl(128, 54%, 37%);
-
+  
 }
 
 #subtitle {
   position: absolute;
-  line-height: 0.8;
+  
+  font-family:Arial, Helvetica, sans-serif;
+  line-height: 14px;
   width: 200px;
-  top: 49%;
+  top: 52%;
   left: 24%;
   transform: translate(-50%, -50%);
   color: hsl(128, 54%, 37%);
@@ -54,11 +61,12 @@
   position: absolute;
   line-height: 0.8;
   width: 200px;
-  top: 61.5%;
+  top: 62%;
   left: 31%;
   transform: translate(-50%, -50%);
   color: hwb(0 100% 0%);
   margin: 0px;
+  font-family:Arial, Helvetica, sans-serif;
   padding: 0px;
 
 }
@@ -75,6 +83,7 @@
   color: hwb(0 95% 5%);
   margin: 0px;
   padding: 0px;
+  font-family:Arial, Helvetica, sans-serif;
    
 }
 
@@ -88,6 +97,7 @@
   color: hwb(0 95% 5%);
   margin: 0px;
   padding: 0px;
+  font-family:Arial, Helvetica, sans-serif;
    
 }
 #contact {
@@ -100,12 +110,13 @@
   color: hwb(0 95% 5%);
   margin: 0px;
   padding: 0px;
+  font-family:Arial, Helvetica, sans-serif;
    
 }
 
 #venue {
   position: absolute;
-  line-height: 1;
+  line-height: 16px;
   width: 100px;
   bottom: 1%;
   left: 87%;
@@ -113,6 +124,7 @@
   color: hwb(0 95% 5%);
   margin: 0px;
   padding: 0px;
+  font-family:Arial, Helvetica, sans-serif;
    
 }
 
@@ -123,6 +135,10 @@
 }
 
 
+.firstdiv
+{
+float: left;
+}
 
 
 
@@ -136,7 +152,10 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 400px;
-  box-sizing: border-box;
+  box-sizing: border-box; 
+ margin-left: 50px;
+  float:left;
+ 
 }
 
 form {
@@ -147,6 +166,7 @@ form {
 label {
   margin-bottom: 15px;
   font-size: 14px;
+  text-align: left;
   color: #333;
 }
 
@@ -180,3 +200,4 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #0056b3;
 }
+

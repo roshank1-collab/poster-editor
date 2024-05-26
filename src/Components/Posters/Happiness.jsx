@@ -7,9 +7,9 @@ const Happiness = () => {
   const [subtitle, setSubtitle] = useState('Learn powerful scientific breathing technique  SKY');
   const [link, setLink] = useState('tiny.cc/link');
   const [date, setDate] = useState('29 May 2024');
-  const [time, setTime] = useState('7Am- 10Am');
-  const [contact, setContact] = useState('Contact Details');
-  const [venue, setVenue] = useState('Art Of Living Center, Butwal');
+  const [time, setTime] = useState('7AM- 10AM');
+  const [contact, setContact] = useState('9810553757');
+  const [venue, setVenue] = useState('Bangalore Ashram');
 
  
 
@@ -37,8 +37,9 @@ const Happiness = () => {
 
 
   return (
-    <div>
-      <div id="poster" style={{ width: '500px', height: '419px', border: '1px solid #000', padding: '20px' }}>
+    <div className='container'>
+      
+      <div id="poster" className='firstdiv' style={{ width: '500px', height: '419px', border: '1px solid #000', padding: '20px' }}>
         <h1 id='course-title'>{title}</h1>
         <h5 id='subtitle'>{subtitle}</h5>
         <h5 id='link'>{link}</h5>
@@ -47,16 +48,12 @@ const Happiness = () => {
         <h5 id='contact'>{contact}</h5>
         <h5 id='venue'>{venue}</h5>
 
-
       </div>
-      <br>
+    <div><button  id="button" onClick={downloadPoster}>Download Poster</button></div>
+      
 
-      </br>
-      <button  id="button" onClick={downloadPoster}>Download Poster</button>
-<br>
-        
-      </br>
       <div className="form-container">
+      <h1 className='h1enter'>Enter Your Details Here</h1>
         <form>
             <label>Enter your name Title:
                 <input
@@ -111,14 +108,14 @@ const Happiness = () => {
 
         </form>
     </div>
+  
+     
 
-   
+      
 
-    </div>
-   
+      </div>
 
 
-    
 
   
   );
