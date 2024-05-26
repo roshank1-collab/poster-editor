@@ -47,13 +47,17 @@ const Happiness = () => {
         <h5 id='time'>{time}</h5>
         <h5 id='contact'>{contact}</h5>
         <h5 id='venue'>{venue}</h5>
+       
 
       </div>
-    <div><button  id="button" onClick={downloadPoster}>Download Poster</button></div>
+      
+
+  
+    
       
 
       <div className="form-container">
-      <h1 className='h1enter'>Enter Your Details Here</h1>
+      <h1>Enter Your Details Here</h1>
         <form>
             <label>Enter your name Title:
                 <input
@@ -107,11 +111,12 @@ const Happiness = () => {
         
 
         </form>
+        <button  id="button" onClick={downloadPoster}>Download Poster</button>
     </div>
   
      
 
-      
+
 
       </div>
 
