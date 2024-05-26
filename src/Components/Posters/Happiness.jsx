@@ -41,15 +41,7 @@ const Happiness = () => {
       
 
     <div className='container'>
-      <div class="topnav">
-  <a class="#" href="#">Happiness Program</a>
-  <a class="#" href="#">Sahaj Samadhi</a>
-  <a href="#">Kids Program</a>
-  <a href="#">Advance Programs</a>
-  <a href="#">Yoga Programs</a>
-  <a href="#">Intro Programs</a>
-</div>
-      
+    
       <div id="poster" className='firstdiv' style={{ width: '500px', height: '419px', border: '1px solid #000', padding: '20px' }}>
         <h1 id='course-title'>{title}</h1>
         <h5 id='subtitle'>{subtitle}</h5>
